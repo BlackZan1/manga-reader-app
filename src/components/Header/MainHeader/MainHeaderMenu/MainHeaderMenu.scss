@@ -1,0 +1,22 @@
+.ant-dropdown {
+    box-shadow: 0.5px 0.5px 4px #a9a9a9;
+    border-radius: 20px 0 20px 20px;
+
+    .ant-menu {
+        border: 1px solid #f2f2f2;
+        border-radius: 20px 0 20px 20px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 5px;
+        padding-bottom: 7px;
+        cursor: pointer;
+        padding-top: 0px;
+        overflow: hidden;
+
+        .ant-badge {
+            padding: 0 10px;
+            font-size: 16px !important;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.header {
+    font-size: 20px;
+    z-index: 999;
+
+    &.ant-page-header {
+        font-size: 16px;
+    }
+
+    .ant-page-header-back {
+        font-size: 26px;
+    }
+
+    .ant-page-header-heading-title {
+        font-size: 24px;
+    }
+
+    .ant-page-header-heading-sub-title {
+        font-size: 20px;
+    }
+}

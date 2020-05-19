@@ -1,0 +1,19 @@
+.tag-result-page  {
+    .tag-results {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .tag-results-options {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 20px 0;
+    }
+}

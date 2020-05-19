@@ -1,0 +1,124 @@
+.home {
+    animation: fadeIn .4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .home-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: #151F2E;
+        height: 17rem;
+        margin-top: -40px;
+        z-index: 9;
+
+        .ant-avatar {
+            margin-right: 30px;
+            background: rgba($color: #fff, $alpha: 0.5);
+        }
+    
+        .home-info-contact {
+            line-height: 15px;
+            font-weight: 500;
+            
+            & > h1 {
+                color: #fff;
+                font-weight: 500;
+            }
+
+            & > h2 {
+                color: hotpink;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .home-tabs {
+        z-index: 999;
+        margin-top: -39px;
+        width: 80%;
+
+        .ant-input-search.ant-input-affix-wrapper {
+            height: 40px !important;
+            max-height: 40px;
+            border-radius: 5px;
+        }
+
+        .home-tabs-form {
+            width: 450px;
+            margin: 15px auto;
+
+            input {
+                height: 40px;
+                font-size: 16px;
+                border-radius: 5px;
+            }
+        }
+
+        .home-tabs-list {
+            margin: 10px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .home-tabs-waiting-item {
+            margin: 15px auto;
+            display: flex;
+            width: 95%;
+            align-items: center;
+            min-height: 30px;
+            justify-content: space-around;
+
+            & > p {
+                width: 70%;
+                color: #000;
+                padding: 0;
+                margin: 0 0 0 20px;
+            }
+
+            div {
+                display: flex;
+            }
+
+            button {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .home-list {
+        display: flex;
+    }
+
+    .home-divider {
+        width: 80%;
+        margin: 30px auto 20px; 
+    }
+}
+
+.reset-btn {
+    display: block;
+    color: #323232;
+    margin: 30px auto;
+    align-self: center;
+    transition: all .4s ease;
+    cursor: pointer;
+    animation: fadeIn .4s ease;
+
+    &:hover {
+        color: #a9a9a9;
+        transform: rotate(-120deg);
+    }
+}
+
+.result-title {
+    margin: 40px auto 30px;
+    font-size: 30px;
+    color: #a9a9a9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: fadeIn .4s ease;
+}

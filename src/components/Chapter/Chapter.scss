@@ -1,0 +1,20 @@
+.chapter-page {
+    .chapter-page-img {
+        border: 2px solid #323232;
+        margin: 50px auto;
+        width: 50%;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 1px 2px 7px #dcdcdc;
+        cursor: pointer;
+        animation: fadeIn .3s ease;
+    }
+
+    .chapter-page-paginator {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        z-index: 999;
+    }
+}

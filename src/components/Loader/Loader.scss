@@ -1,0 +1,42 @@
+.big-loader {
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn .4s ease;
+}
+
+.small-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn .3s ease;
+
+    & > img {
+        width: 250px;
+    }
+}
+
+.search-loader {
+    margin: 100px auto;
+    animation: fadeIn .3s ease;
+
+    & > img {
+        width: 250px;
+    }
+}
